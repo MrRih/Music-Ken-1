@@ -37,7 +37,7 @@ Dikekolah oleh {OWNER}
                     InlineKeyboardButton(
                         "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
-                    InlineKeyboardButton("🌟 Owner 🌟", url=f"{OWNER}")
+                    InlineKeyboardButton("🌟 Owner 🌟", url=f"t.me/{OWNER}")
                 ]        
             ]
         ),
@@ -96,7 +96,7 @@ def map(pos):
              InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
              InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-            [InlineKeyboardButton("🌟 Owner 🌟", url=f"{OWNER}")]
+            [InlineKeyboardButton("🌟 Owner 🌟", url=f"t.me/{OWNER}")]
         ]
     else:
         button = [
