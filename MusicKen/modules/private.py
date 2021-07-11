@@ -37,7 +37,7 @@ Dikekolah oleh {OWNER}
                     InlineKeyboardButton(
                         "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
-                    InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}")
+                    InlineKeyboardButton("🌟 Owner 🌟", url=f"{OWNER}")
                 ]        
             ]
         ),
@@ -96,7 +96,7 @@ def map(pos):
              InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
              InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-            [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}")]
+            [InlineKeyboardButton("🌟 Owner 🌟", url=f"{OWNER}")]
         ]
     else:
         button = [
@@ -121,7 +121,7 @@ async def reload(client: Client, message: Message):
                         "💬 GROUP", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "OWNER 👮", url=f"https://t.me/kenkanasw"
+                        "OWNER 👮", url=f"https://t.me/tehmanisangett"
                     )
                 ]
             ]
@@ -176,7 +176,7 @@ Semua Perintah Bisa Digunakan Kecuali Perintah /player /skip /pause /resume  /en
                     [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}")]
+                    [InlineKeyboardButton("🌟 Owner 🌟", url=f"t.me/{OWNER}")]
                 ]
         ),
     )
